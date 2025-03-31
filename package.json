@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Danh fullstack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "b": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ducanh005/Backend-HDI.git"
+  },
+  "keywords": [
+    "nodejs",
+    "react"
+  ],
+  "author": "DANH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ducanh005/Backend-HDI/issues"
+  },
+  "homepage": "https://github.com/ducanh005/Backend-HDI#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
