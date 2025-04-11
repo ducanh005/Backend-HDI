@@ -1,19 +1,19 @@
-const { get } = require("../routes/web")
+const connection = require("../config/database");
 
-const getHomePage = (req,res)=>{
-    //process data
-    //call modal
-    res.send("Hello World gethomepage")
-}
+const getHomePage = (req, res) => {
+    return res.render("home.ejs");
+};
 
-const getABC =(req,res)=>{
-    res.send("Hello World getABC")
-}
+const getABC = (req, res) => {
+    res.send("Hello World getABC");
+};
 
-const getDanh=(req,res)=>{
-    res.render('sammple.ejs')
-}
+const getDanh = (req, res) => {
+    res.render("sammple.ejs");
+};
 
 module.exports = {
-    getHomePage,getABC,getDanh
-}
+    getHomePage,
+    getABC,
+    getDanh,
+};
