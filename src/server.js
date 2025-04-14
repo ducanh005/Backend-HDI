@@ -22,7 +22,7 @@ app.use("/", webrouter);
 const testDBConnection = async () => {
     try {
       const [rows, fields] = await connection.query("SELECT * FROM Users u");
-      console.log("Kết nối DB thành công! Dữ liệu:", rows);
+      console.log("Kết nối DB thành công! Dữ liệu:");
     } catch (err) {
       console.error("Lỗi kết nối DB:", err);
     }
